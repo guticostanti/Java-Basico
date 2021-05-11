@@ -1,9 +1,9 @@
-package cap4EstruturaSequencial;
+package exercicio1;
 
 import java.util.Locale;
 
-public class exercicio1 {
-
+public class Exercicio1 {
+	
 	public static void main(String[] args) {
 		/*
 		Exercício: Concatenação de variáveis
@@ -11,9 +11,7 @@ public class exercicio1 {
 		Products:
 		Computer, which price is $ 2100,00
 		Office desk, which price is $ 650,50
-
 		Record: 30 years old, code 5290 and gender: F
-
 		Measure with eight decimal places: 53,23456700
 		Rounded (three decimal places): 53,235
 		US decimal point: 53.235
