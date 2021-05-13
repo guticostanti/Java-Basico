@@ -6,15 +6,16 @@ public class Aluno {
 	double nota1, nota2, nota3;
 	
 	public double calculoNotaFinal() {
-		return nota1 * 0.3 + nota2 * 0.35 + nota3 * 0.35;
+		return nota1 + nota2 + nota3;
 	}
 	
-	public String passedOrNot() {
+	public void passedOrNot() {
 		if (calculoNotaFinal() >= 60.00) {
 			System.out.println("PASS");
 		} else {
 			System.out.println("FAILED");
+			double missingPoints = 60 - calculoNotaFinal();
+			System.out.printf("MISSING %.2f POINTS", missingPoints);
 		};
-		return nome;
 	}
 }
